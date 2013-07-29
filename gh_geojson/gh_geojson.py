@@ -61,4 +61,4 @@ class FeatureCollection(object):
     
     def dumps(self):
         """ Return GeoJSON as string. """
-        return {"type": "FeatureCollection", "features": self.features}
+        return str({"type": "FeatureCollection", "features": self.features})
