@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='geo-tools',
-      version='0.1',
+      version='0.11',
       description='Collection of geo tools',
       author='Jan Erik Solem',
       url='https://github.com/jesolem/geo-tools',
