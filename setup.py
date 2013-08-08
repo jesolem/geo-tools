@@ -5,7 +5,7 @@ setup(name='geo-tools',
       description='Collection of geo tools',
       author='Jan Erik Solem',
       url='https://github.com/jesolem/geo-tools',
-      packages=['gh_geojson'],
+      packages=['gh_geojson', 'geo_exif', 'geocoding'],
       classifiers=[
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',

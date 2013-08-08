@@ -13,6 +13,9 @@ Simple module for generating GeoJSON compatible with GitHub's (and MapBox') map 
 
 Get photo latitude and longitude from EXIF tags.
 
+### geocoding
+
+Reverse geocoding using Nominatim on Open Street Map, MapQuest, or custom API endpoints.
 
 ## License
 
