@@ -17,6 +17,11 @@ Get photo latitude and longitude from EXIF tags.
 
 Reverse geocoding using Nominatim on Open Street Map, MapQuest, or custom API endpoints.
 
+### tools
+
+Useful tools:
+* Converter from shape files to geojson
+
 ## License
 
 All modules are made available under the simplified BSD (2-clause) license. See LICENSE for details.
