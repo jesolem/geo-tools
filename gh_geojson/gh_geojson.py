@@ -62,3 +62,15 @@ class FeatureCollection(object):
     def dumps(self):
         """ Return GeoJSON as string. """
         return json.dumps({"type": "FeatureCollection", "features": self.features}, indent=2)
+    
+    def load(self, filename):
+        """ Load features from file. """
+        with open(filename, 'r') as f:
+            json_data = json.loads(f.read())
+        self.features = json_data['features']
+    
+    def __add__(self, other):
+        """ Add two feature collections. """
+        res = self.__class__()
+        res.features = self.features + other.features
+        return res
